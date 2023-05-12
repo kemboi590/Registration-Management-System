@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Manangement System</title>
     <link rel="stylesheet" href="./styles.css">
+    <script src="./App.js"></script>
 </head>
 <body>
     <div class="myPage">
@@ -42,7 +43,7 @@
             <option value="Tanzania">Spanish</option>
           </select>
           <br> <br>
-        <button>SUBMIT</button>
+        <button id="submitinput">SUBMIT</button>
 
         </form>
 
@@ -50,68 +51,47 @@
         <div class="submitted">
             <h2>Submitted Details</h2>
             <table>
-                <div class="data">
-                    <th>Name</th>
-                <th>ID Number</th>
-                <th>Country</th>
-                <th>Language</th>
-                <th>Delete</th>
-                </div>
-
-                <div class="data">
+              <thead>
                 <tr>
-                    <td>John Doe</td>
-                    <td>12345678</td>
-                    <td>Kenya</td>
-                    <td>English</td>
-                    <td><button>Delete</button></td>
+                  <th>Name</th>
+                  <th>ID Number</th>
+                  <th>Country</th>
+                  <th>Language</th>
+                  <th>Delete</th>
                 </tr>
-                </div>
-
-                <div class="data">
-                <tr>
-                    <td>John Doe</td>
-                    <td>12345678</td>
-                    <td>Kenya</td>
-                    <td>English</td>
-                    <td><button>Delete</button></td>
+              </thead>
+              <tbody>
+                <tr class="mylist">
+                  <td>John Doe</td>
+                  <td>12345678</td>
+                  <td>Kenya</td>
+                  <td>English</td>
+                  <td><button class="delete">Delete</button></td>
                 </tr>
-                </div>
-
-                <div class="data">
-                <tr>
-                    <td>John Doe</td>
-                    <td>12345678</td>
-                    <td>Kenya</td>
-                    <td>English</td>
-                    <td><button>Delete</button></td>
-
+                <tr class="mylist">
+                  <td>John Doe</td>
+                  <td>12345678</td>
+                  <td>Kenya</td>
+                  <td>English</td>
+                  <td><button class="delete">Delete</button></td>
                 </tr>
-                </div>
-
-                <div class="data">
-                <tr>
-                    <td>John Doe</td>
-                    <td>12345678</td>
-                    <td>Kenya</td>
-                    <td>English</td>
-                    <td><button>Delete</button></td>
-                    </tr>
-                </div>
-
+                <tr class="mylist">
+                  <td>John Doe</td>
+                  <td>12345678</td>
+                  <td>Kenya</td>
+                  <td>English</td>
+                  <td><button class="delete">Delete</button></td>
+                </tr>
+                <tr class="mylist">
+                  <td>John Doe</td>
+                  <td>12345678</td>
+                  <td>Kenya</td>
+                  <td>English</td>
+                  <td><button class="delete">Delete</button></td>
+                </tr>
+              </tbody>
             </table>
-        
-        
-        
-        
-        
-    
-
-
-
-
-
-        </div>
+          </div>
     </div>
 </body>
 </html>
