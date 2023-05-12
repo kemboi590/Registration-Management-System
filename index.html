@@ -11,40 +11,37 @@
 <body>
     <div class="myPage">
         <h1 class="myheading">Registration Page</h1>
-        <form action="">
-         
-                <label for="name">Enter your name:</label>
-            <input type="text" placeholder="your name">
-       
-             
+        <form id="addForm">
+            <label for="name">Enter your name:</label>
+            <input type="text" name="name" placeholder="your name">
+        
             <br> <br>
-         
+        
             <label for="idno">Enter your ID number:</label>
-            <input type="number" placeholder="your ID number">
-          
+            <input type="number" name="idno" placeholder="your ID number">
+        
             <br> <br>
-         
+        
             <label for="select-country">Select Your country:</label>
-        <select id="select-country" name="select" required>
-          <option value="">Select an option</option>
-          <option value="Kenya">Kenya</option>
-          <option value="Uganda">Uganda</option>
-          <option value="Tanzania">Tanzania</option>
-        </select>
-      
-        <br> <br>
-
-     
-        <label for="select-language">Select Your language:</label>
-        <select id="select-language" name="select" required>
-            <option value="">Select your language</option>
-            <option value="Kenya">English</option>
-            <option value="Uganda">Kiswahili</option>
-            <option value="Tanzania">Spanish</option>
-          </select>
-          <br> <br>
-        <button id="submitinput">SUBMIT</button>
-
+            <select id="select-country" name="country" required>
+                <option value="">Select an option</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Tanzania">Tanzania</option>
+            </select>
+        
+            <br> <br>
+        
+            <label for="select-language">Select Your language:</label>
+            <select id="select-language" name="language" required>
+                <option value="">Select your language</option>
+                <option value="Kenya">English</option>
+                <option value="Uganda">Kiswahili</option>
+                <option value="Tanzania">Spanish</option>
+            </select>
+        
+            <br> <br>
+            <button type="submit">SUBMIT</button>
         </form>
 
 
