@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-color: #232125;
+}
+.myPage{
+    background-color: #8B37CA;
+    height: fit-content;
+    width: 90%;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+   
+}
+.myheading{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.myPage h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.submitted h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 50px;
+}
+form{
+    border: 2px solid #fff;
+    padding: 2rem;
+ 
+}
+form label{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 100px;
+}
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+}
+form select{
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+}
+form button{
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+form button:hover{
+    background-color: #8B37CA;
+    color: #fff;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+th{
+    color: #fff;
+    padding: 10px;
+}
