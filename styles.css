@@ -102,3 +102,17 @@ th{
     color: #fff;
     padding: 10px;
 }
+.delete {
+    background-color: #ff5a5a;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  .delete:hover {
+    background-color: #ff0000;
+  }
+  
